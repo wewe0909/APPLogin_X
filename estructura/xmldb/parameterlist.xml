@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+    <section name="User">
+        <item name="ID">
+            <type>int</type>
+            <max_length>15</max_length>
+        </item>
+        <item name="Username">
+            <type>string</type>
+            <max_length>25</max_length>
+        </item>
+        <item name="Password">
+            <type>string</type>
+            <max_length>155</max_length>
+        </item>
+    </section>
+</list>
