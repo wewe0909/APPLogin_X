@@ -1,0 +1,23 @@
+Unregistered:
+
+Login → mail validate REGISTER CODE
+Register
+Change Password → mail validate
+
+Admin Console: 
+
+List (select):
+Current Connections
+System Status
+Historic Connections
+Users
+
+Get Account Data From @user
+
+User Console:
+
+Change Password → mail validate
+Logout 
+
+
+19:10 28/01/2025
