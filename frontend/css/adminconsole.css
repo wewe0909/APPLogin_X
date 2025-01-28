@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", serif;
+    font-size:14px;
+}
+
+body {
+    margin-top:20px;
+}
+
+h1 {
+    font-size:22px;
+    margin:0;
+    padding:0;
+}
+
+hr {
+    border-top: 1px solid #0095ff;
+}
+
+fieldset {
+    border:none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.p0 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width:100%;
+}
+    
+.p1 {
+    padding:25px;
+    border:1px solid #0095ff;
+    border-radius:8px;
+    display: block;
+    width: 20%;
+    margin-bottom: 10px;
+    margin:15px;
+    height:100;
+    width:250px;
+
+}
+
+.p1 input[type="text"], .p1 input[type="password"]{
+    width:45%;
+}
+
+input[type="submit"], button{
+    cursor:pointer;
+    margin-top:8px;
+    border:1px solid white;
+    border-radius:2px;
+    padding:5px;
+    padding-left:9px;
+    padding-right:9px;
+    background-color:#0095ff;
+    color:white;
+}
+
+#signup:hover{
+    cursor:pointer;
+    margin-top:8px;
+    border:1px solid white;
+    border-radius:2px;
+    padding:5px;
+    padding-left:9px;
+    padding-right:9px;
+    background-color:#0095ff;
+    color:white;
+}
+
+input[type="submit"]:hover{
+    margin-top:8px;
+    border:1px solid #0095ff;
+    border-radius:2px;
+    padding:5px;
+    padding-left:9px;
+    padding-right:9px;
+    background-color:#ffffff;
+    color:#0095ff;
+}
+
+.middle {
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    padding:0;
+    margin:0;
+}
+
+.blue {
+    color:#0095ff;
+}
+
+.link {
+    color:#0095ff;
+    cursor:pointer;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.someotherstuff {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+}
+
+#signup{
+    margin-top:8px;
+    border:1px solid #0095ff;
+    border-radius:2px;
+    padding:5px;
+    padding-left:9px;
+    padding-right:9px;
+    background-color:#ffffff;
+    color:#0095ff;
+}
+
+table th, tr {
+    width:300px;
+}
+
+#server_msg {
+    margin:10px;
+    margin-bottom:0;
+    background-color:rgb(251, 251, 216);
+    border:1px solid rgb(118, 90, 63);
+}
